@@ -43,7 +43,7 @@ public class Main {
 /*
     Answer: this string is not correct because the closing bracket ] appears while
     a round parentheses ( is still open, violating the proper nesting order.
-    I would fix it via map as i did in another packet called main.go - you need to store (), [], {} in map
+    In go - probably as in java I would fix it via map as i did in another packet called main.go - you need to store (), [], {} in map
     and in a loop to go through the string checking each symbol whether it is has close bracket and if it does
     you need to pop this couple and move on
     But if the question is how to fix the string - replace the last two characters ]] with )]
